@@ -5,7 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Coming soon</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="#">
+        <img class="header__img" src="logo.svg" alt="logo" />
+      </a>
+    </header>
+    <main class="main">
+      <h1 class="main__title">All good things come to thoose who wait...</h1>
+      <p class="main__subtitle">Get notified when we launch! 🚀</p>
+      <div class="wrapper">
+        <div class="email-border"></div>
+        <label class="email">
+          <input
+            class="input email__input"
+            type="email"
+            placeholder="Your email"
+            required
+            minlength="4"
+            maxlength="40"
+          />
+          <button class="button email__button" type="button">Notify me</button>
+        </label>
+      </div>
+    </main>
+  </body>
 </html>
