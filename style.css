@@ -9,8 +9,8 @@
 }
 
 :root {
-  --base-font: 'Inter' sans-serif;
-  --phone-fond: 'Rubik' sans-serif;
+  --base-font: 'Inter', sans-serif;
+  --phone-fond: 'Rubik', sans-serif;
 }
 
 html {
